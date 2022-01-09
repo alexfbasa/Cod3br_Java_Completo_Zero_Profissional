@@ -66,7 +66,7 @@ public class Data {
 	}
 
 	public String dataFormatada() {
-		return "O dia é " + dia + " do mes " + mes + " e ano " + ano;
+		return String.format("%d/%d/%d", dia, mes, ano);
 	}
 
 }

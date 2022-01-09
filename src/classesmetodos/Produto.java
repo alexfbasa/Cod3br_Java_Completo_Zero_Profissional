@@ -65,16 +65,15 @@ public class Produto {
 	public String toString() {
 		return "O produto " + nome + " com o valor " + preco + " e desconto de " + desconto;
 	}
+
 	public double somarCompra() {
 		double total = 0;
 		total += this.preco;
-		
 		return total;
 	}
-	public double precoComDesconto(double preco , double desconto) {
-		double totalDeconto = 0;
-		totalDeconto += preco * (1 - desconto);
-		return totalDeconto;
+
+	public double precoComDesconto() {
+		return preco * (1 - desconto);
 	}
 
 }

@@ -14,13 +14,11 @@ public class SistemaProduto {
 		p2.desconto = 0.28;
 		System.out.println(p2.toString());
 
-		double precoFina1 = p1.preco * (1 - p1.desconto);
+		double precoFina1 = p1.precoComDesconto();
+		
 		double precoFina2 = p2.preco * (1 - p2.desconto);
 		System.out.println(precoFina1);
 		System.out.println(precoFina2);
-
-		var p3 = new Produto();
-		System.out.println("O produto três tem " + p3.precoComDesconto(50.00, 0.25));
 
 		double mediaCarrinho = (precoFina1 + precoFina1) / 2;
 		System.out.println(mediaCarrinho);
