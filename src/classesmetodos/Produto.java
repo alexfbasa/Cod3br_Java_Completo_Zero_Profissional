@@ -71,5 +71,10 @@ public class Produto {
 		
 		return total;
 	}
+	public double precoComDesconto(double preco , double desconto) {
+		double totalDeconto = 0;
+		totalDeconto += preco * (1 - desconto);
+		return totalDeconto;
+	}
 
 }
