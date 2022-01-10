@@ -15,8 +15,8 @@ public class Arrays {
 		
 		//Percorrer o Array
 		double total = 0;
-		for (int i = 0; i < notasDoAlunoA.length; i++) {
-			total += notasDoAlunoA[i];
+		for (int contador = 0; contador < notasDoAlunoA.length; contador++) {
+			total += notasDoAlunoA[contador];
 			
 		}
 		double mediaAlunoA = total / notasDoAlunoA.length;
