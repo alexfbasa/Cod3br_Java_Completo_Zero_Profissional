@@ -2,6 +2,8 @@
 .classpath
 .project
 .settings/
+#IDE metadata
+**.idea/**
 .idea
 .idea/misc.xml
 .idea/modules.xml
