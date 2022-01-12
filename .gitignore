@@ -2,4 +2,13 @@
 .classpath
 .project
 .settings/
-
+#IDE metadata
+**.idea/**
+.idea
+.idea/misc.xml
+.idea/modules.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/runConfigurations
+.idea/workspace
+.idea/.gitignore
