@@ -1,4 +1,4 @@
 package oo.pomorfismo;
 
-public class Arroz extends Comer{
+public class Arroz extends Comida {
 }

@@ -1,4 +1,4 @@
 package oo.pomorfismo;
 
-public class Feijao extends Comer{
+public class Feijao extends Comida {
 }
