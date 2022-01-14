@@ -3,3 +3,47 @@ Atalhos - Eclipse
 alt + Shift + S = chama o atalho so sorce - criar Getters e Setters
 
 testando branch
+
+
+Atalhos - IntelliJ IDEA
+Smart code completion Ctrl{+} Shift{+} Space
+Search everywhere Double Shift
+Show intention actions and quick-fixes Alt{+} Enter
+Generate code Alt{+} Ins
+Parameter info Ctrl{+} P
+Extend selection Ctrl{+} W
+Shrink selection Ctrl{+} Shift{+} W
+Recent files popup Ctrl{+} E
+Rename Shift{+} F6
+GENERAL
+Open corresponding tool window Alt{+} #[0-9]
+Save all Ctrl{+} S
+Synchronize Ctrl{+} Alt{+} Y
+Toggle maximizing editor Ctrl{+} Shift{+} F12
+Inspect current file with current profile Alt{+} Shift{+} I
+Quick switch current scheme Ctrl{+} BackQuote (`)
+Open Settings dialog Ctrl{+} Alt{+} S
+Open Project Structure dialog Ctrl{+} Alt{+} Shift{+} S
+Find Action Ctrl{+} Shift{+} A
+
+DEBUGGING
+
+Step over{ / }into F8/F7
+Smart step into{ / }Step out Shift{+} F7/Shift{+} F8
+Run to cursor Alt{+} F9
+Evaluate expression Alt{+} F8
+Resume program F9
+Toggle breakpoint Ctrl{+} F8
+View breakpoints Ctrl{+} Shift{+} F8
+
+SEARCH / REPLACE
+
+Search everywhere Double Shift
+Find Ctrl{+} F
+Find next{ / }previous F3/Shift{+} F3
+Replace Ctrl{+} R
+Find in path Ctrl{+} Shift{+} F
+Replace in path Ctrl{+} Shift{+} R
+Select next occurrence Alt{+} J
+Select all occurrences Ctrl{+} Alt{+} Shift{+} J
+Unselect occurrence Alt{+} Shift{+} J
