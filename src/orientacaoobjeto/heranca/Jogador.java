@@ -1,14 +1,38 @@
 package orientacaoobjeto.heranca;
 
 public class Jogador {
-	int vida = 100;
-	int x;
-	int y;
+	public int vida = 100;
+	public int x;
+	public int y;
 
+	
+	
+	public int getVida() {
+		return vida;
+	}
+	public void setVida(int vida) {
+		this.vida = vida;
+	}
+	public int getX() {
+		return x;
+	}
+	public void setX(int x) {
+		this.x = x;
+	}
+	public int getY() {
+		return y;
+	}
+	public void setY(int y) {
+		this.y = y;
+	}
+	protected Jogador(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
 	// Aqui eu estou criando um instancia oponente - do Jogador
 	// Como aqui recebe um jogador generico
 	// Voce habilita receber as coisas por herança
-	boolean atacar(Jogador oponente) {
+	public boolean atacar(Jogador oponente) {
 		// Calcula a distancia do X entre os jogadores
 		int deltaX = Math.abs(x - oponente.x);
 		// Calcula a distancia do Y entre os jogadores
@@ -26,7 +50,7 @@ public class Jogador {
 			return false;
 	}
 
-	boolean andar(Direcao direcao) {
+	public boolean andar(Direcao direcao) {
 
 		switch (direcao) {
 		case NORTE:

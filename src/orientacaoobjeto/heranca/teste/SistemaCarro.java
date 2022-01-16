@@ -1,4 +1,8 @@
-package orientacaoobjeto.heranca.desafio;
+package orientacaoobjeto.heranca.teste;
+
+import orientacaoobjeto.heranca.desafio.Carro;
+import orientacaoobjeto.heranca.desafio.Civic;
+import orientacaoobjeto.heranca.desafio.Ferrari;
 
 public class SistemaCarro {
 

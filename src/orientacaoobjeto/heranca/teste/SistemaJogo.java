@@ -1,12 +1,13 @@
-package orientacaoobjeto.heranca;
+package orientacaoobjeto.heranca.teste;
+
+import orientacaoobjeto.heranca.Heroi;
+import orientacaoobjeto.heranca.Monstro;
 
 public class SistemaJogo {
 	
 	public static void main(String[] args) {
 		//Herdou de Jogador
-		Heroi jogadorHeroi = new Heroi();
-		jogadorHeroi.x = 10;
-		jogadorHeroi.y = 10;
+		Heroi jogadorHeroi = new Heroi(10 , 11);
 
 		//Herdou de Jogador
 		Monstro jogadorMostro = new Monstro();
