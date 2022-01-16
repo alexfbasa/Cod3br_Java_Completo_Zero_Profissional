@@ -11,7 +11,7 @@ public class Compra {
 	}
 	// Ja cria um produto - adiciona um item e ja passa o item para a compra
 	void adicionarItem(String nome , double preco , int qtde) {
-		var produto = new Produto(nome, preco);
+		Produto produto = new Produto(nome, preco);
 		this.itens.add(new Item (produto ,qtde));
 		//this.itens.add(new Item (new Produto(nome, preco) ,qtde));
 	}
