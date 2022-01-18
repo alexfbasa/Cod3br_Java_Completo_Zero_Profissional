@@ -1,17 +1,5 @@
 package orientacaoobjeto.heranca.desafio;
 
-<<<<<<< HEAD
-public class Ferrari extends Carro{
-	
-	public Ferrari(int velocidadeMaxima) {
-		super(velocidadeMaxima);
-		delta = 350;
-	}
-	Ferrari(){
-		this(315);
-	}
-//	void acelerar() {
-=======
 public class Ferrari extends Carro implements Esportivo, Luxo {
     //Uma vez definido o implements a classe da problema
     //Ferrari deve implementar o metodo LigaTurbo
@@ -63,8 +51,7 @@ public class Ferrari extends Carro implements Esportivo, Luxo {
             return 15;
         }
     }
-    //	void acelerar() {
->>>>>>> a610c704c3e0250f7f6028f44b3d31356c44dff2
+//	void acelerar() {
 //		velocidadeAtual += 15;
 //	}
 
