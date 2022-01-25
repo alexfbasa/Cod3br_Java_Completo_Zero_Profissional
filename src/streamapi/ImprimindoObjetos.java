@@ -12,14 +12,14 @@ public class ImprimindoObjetos {
         List<String> aprovados = Arrays.asList("Alex", "Anselmo", "Gaby");
 
         System.out.println("Usando o Foreach");
-        for(String nomes: aprovados){
+        for (String nomes : aprovados) {
             System.out.println(nomes);
         }
         System.out.println("\nUsando o Iterator");
         //Chamando o Iterator
         Iterator<String> iterator = aprovados.iterator();
         //Enquanto existir o proximo nome, var para o proximo
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
         System.out.println("\nUsando o Stream");
