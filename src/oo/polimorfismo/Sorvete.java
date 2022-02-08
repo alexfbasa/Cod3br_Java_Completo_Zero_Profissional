@@ -1,4 +1,4 @@
-package oo.pomorfismo;
+package oo.polimorfismo;
 
 public class Sorvete extends Comida {
 
