@@ -15,14 +15,8 @@ public class Predicado {
 		System.out.println(esCaro.test(produto1));
 		Predicate<Produto> isCaro = prod -> (prod.preco >= 3000);
 		System.out.println(isCaro.test(produto1));
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
+
 
 }
