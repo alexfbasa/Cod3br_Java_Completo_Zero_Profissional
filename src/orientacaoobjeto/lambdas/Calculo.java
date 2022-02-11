@@ -1,4 +1,5 @@
 package orientacaoobjeto.lambdas;
+
 @FunctionalInterface
 public interface Calculo {
 	// Uma funcao de Interface soh pode ter apenas um metodo abstrato

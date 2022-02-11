@@ -18,8 +18,7 @@ public class PredicadoComposicao {
         Predicate<Integer> isTresDigitos = num -> num >= 100 && num <= 999;
         System.out.println(isPar.and(isTresDigitos).test((int) n));
 
-
-
         scanner.close();
     }
+
 }

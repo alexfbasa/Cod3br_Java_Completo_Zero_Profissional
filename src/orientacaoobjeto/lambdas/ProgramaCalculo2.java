@@ -12,11 +12,9 @@ public class ProgramaCalculo2 {
         };
         //Defini a logica dessa funcao, atraves dos parametros o Java associou
         System.out.println(calculo.executar(7, 10));
-
         // Criando a funcao Lambda mais otimizada
         // Aqui nao tem o return, ele esta implicito
         calculo = (x, y) -> x * y;
         System.out.println(calculo.executar(8, 10));
-
     }
 }
