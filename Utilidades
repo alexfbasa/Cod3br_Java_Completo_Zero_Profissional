@@ -26,6 +26,18 @@ Open Settings dialog Ctrl{+} Alt{+} S
 Open Project Structure dialog Ctrl{+} Alt{+} Shift{+} S
 Find Action Ctrl{+} Shift{+} A
 
+Duplicar Linha
+Ctrl{+} D
+
+Reformate Code
+Ctrl{+} Alt{+} L
+
+Mover linhas
+Alt{+} Shift{+} UP/DOWN
+
+Organizar Imports
+Ctrl{+} Shift{+} O
+
 DEBUGGING
 
 Step over{ / }into F8/F7

@@ -19,9 +19,6 @@ public class Desafio {
         String preco = precoFinal.andThen(precoImposto).andThen(precoFrete).andThen(formatar).andThen(arredondar).apply(p);
 
 
-
-
-
-
     }
 }
+

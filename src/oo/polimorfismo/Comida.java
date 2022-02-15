@@ -1,4 +1,4 @@
-package oo.pomorfismo;
+package oo.polimorfismo;
 
 public class Comida {
     protected double peso;
