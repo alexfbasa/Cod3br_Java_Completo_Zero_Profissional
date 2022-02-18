@@ -15,7 +15,5 @@ public class Reduce {
         int total = nums.stream().reduce(soma).get();
         System.out.println(total);
 
-        
-
     }
 }
