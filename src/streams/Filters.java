@@ -2,6 +2,7 @@ package streams;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -25,6 +26,9 @@ public class Filters {
         Predicate<Produto> superPromocao = n -> n.desconto >= 0.3;
         Predicate<Produto> freteZero = n -> n.frete == 0;
         Predicate<Produto> prodRelevante = n -> n.preco >= 500;
+        Predicate<Produto> custaMenosMil = n -> n.preco <= 1000;
+        Function<Produto, String> getNome = n -> "O nome do produto eh " + n.nome;
+
 
         Function<Produto, String> chamadaPromocional = p -> "Aproveite " + p.nome + " por R$"+p.preco;
 
@@ -36,6 +40,15 @@ public class Filters {
                 .filter(prodRelevante)
                 .map(chamadaPromocional)
                 .forEach(System.out::println);
+
+        produtos.stream()
+                .filter(custaMenosMil)
+                .map(getNome)
+                .map(l -> l.toUpperCase())
+                .map(Utils.espaco)
+                .forEach(System.out::print);
+
+
 
     }
 }
