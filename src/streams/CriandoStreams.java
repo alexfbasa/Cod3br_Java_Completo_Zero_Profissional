@@ -1,6 +1,7 @@
 package streams;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
@@ -34,6 +35,9 @@ public class CriandoStreams {
 
         Arrays.stream(maisLangs, 0, 2).forEach(print);
 
+        Produto p1 = new Produto("Jaca", 20, 0,0);
+        List<Produto> produto = Arrays.asList(p1);
+        produto.stream().forEach(System.out::println);
     }
 
 }
