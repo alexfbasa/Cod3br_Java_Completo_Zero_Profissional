@@ -19,14 +19,14 @@ public class Data {
 	/**
 	 * Construtor com data padrão, quando usado definira essa data
 	 */
-	Data() {
+	public Data() {
 		dia = 01;
 		mes = 01;
 		ano = 1970;
 	}
 
 	// No construtor com outra assinatura
-	Data(int dia, int mes, int ano) {
+	public Data(int dia, int mes, int ano) {
 		this.dia = dia;
 		this.mes = mes;
 		this.ano = ano;

@@ -3,8 +3,6 @@ package lambdas;
 import java.util.Arrays;
 import java.util.List;
 
-import jdk.internal.dynalink.beans.StaticClass;
-
 public class Foreach {
 
 	public static void main(String[] args) {
